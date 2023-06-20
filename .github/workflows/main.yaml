@@ -17,7 +17,7 @@ jobs:
     - name: Setup .NET SDK
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 7.0.100
+        dotnet-version: '7.0.x'
     # add a step to restore NuGet packages
     - name: Restore NuGet packages
       run: dotnet restore
